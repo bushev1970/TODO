@@ -1,0 +1,44 @@
+html {
+    font-size: 16px;
+}
+
+.icon {
+    margin-right: 0 !important;
+}
+
+.header {
+    overflow: hidden;
+    position: relative;
+    margin-top: 2rem !important;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        .icon {
+            font-size: 1.6rem;
+            color: black;
+        }
+    }
+}
+
+.user {
+    margin-right: -2rem;
+    &>.left {
+        transition: all .3s ease-out;
+    }
+    &:hover>.left {
+        transform: rotate(-180deg);
+    }
+}
+
+.menu-left {
+    position: absolute;
+    left: -15rem;
+    height: 20rem;
+    width: 15rem;
+    background: gray;
+}
+
+.user:hover,
+.header>.menu-left {
+    left: 1rem;
+}

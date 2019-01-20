@@ -1,0 +1,36 @@
+html {
+  font-size: 16px; }
+
+.icon {
+  margin-right: 0 !important; }
+
+.header {
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem !important; }
+  .header__menu {
+    display: flex;
+    justify-content: space-between; }
+    .header__menu .icon {
+      font-size: 1.6rem;
+      color: black; }
+
+.user {
+  margin-right: -2rem; }
+  .user > .left {
+    transition: all .3s ease-out; }
+  .user:hover > .left {
+    transform: rotate(-180deg); }
+
+.menu-left {
+  position: absolute;
+  left: -15rem;
+  height: 20rem;
+  width: 15rem;
+  background: gray; }
+
+.user:hover,
+.header > .menu-left {
+  left: 1rem; }
+
+/*# sourceMappingURL=style.css.map */
